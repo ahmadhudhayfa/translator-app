@@ -7,6 +7,5 @@ function translateText() {
   document.getElementById("translatedText").innerHTML = `Translation: ${translated}`;
 }
 
+// Attach the function to the window object to make it accessible globally
 window.translateText = translateText;
-
-
